@@ -270,15 +270,21 @@ li a {
     padding-bottom: 50px;
     background-image: url(gradfor.png);
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 form {
-    margin-top: 70px;
-    line-height: 2.5em;
-    background-color: #fff;
-    width: 20%;
-    padding: 2em 2em;
-    margin-left: 515px;
+background-color: whitesmoke;
+    color: var(--tertiary-color);
+    display: flex;
+    flex-direction: column;
+    padding: 2.625rem;
+    row-gap: 1.5rem;
+    width: 100%;
+    max-width: 22.5rem;
+    border-radius: 0.75rem;
 }
 
 .trimurl {
